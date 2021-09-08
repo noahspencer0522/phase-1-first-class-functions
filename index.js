@@ -1,9 +1,12 @@
 function receivesAFunction (cb){
     cb()
 }
-var fn = retrunsANamedFunction(namedFunction){
-    namedFunction
+function returnsANamedFunction() {
+    return function namedFn() {
+    };
+    }
+function returnsAnAnonymousFunction(){
+    return anonymousFn
 }
-
-
-
+     
+        
