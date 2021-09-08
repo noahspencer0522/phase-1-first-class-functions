@@ -6,7 +6,6 @@ function returnsANamedFunction() {
     };
     }
 function returnsAnAnonymousFunction(){
-    return anonymousFn
-}
-     
-        
+    return function(){
+
+    }}
