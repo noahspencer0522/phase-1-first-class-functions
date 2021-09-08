@@ -1,6 +1,9 @@
-function receivesAFunction(cb){
-    console.log(cb());
+function receivesAFunction (cb){
+    cb()
 }
-function returnsANamedFunction (callback = 'before all'){
-    console.log(callback())
+var fn = retrunsANamedFunction(namedFunction){
+    namedFunction
 }
+
+
+
